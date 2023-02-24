@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font: 14px "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
